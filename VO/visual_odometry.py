@@ -1,3 +1,18 @@
+'''
+Author: Minh Quan Dao
+Version: 1.0
+
+Modifier: Gowri Umesh <mailgowriumesh@gmail.com>,
+          R Singaram <singaram888@gmail.com>
+	  
+Description: This script is an importable module with visual 
+odometry class that implements homography based VO algorithm.
+The algorithm uses openCV, ORB feature detector and Flann
+based matcher for its implementation.
+'''
+
+
+
 import numpy as np
 import cv2
 from typing import List, Tuple
